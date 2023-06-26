@@ -1,0 +1,14 @@
+    "index of" "parent directory"
+        Description: Searches for directories that are openly indexed and may contain various files.
+
+    intitle:"index of" "parent directory"
+        Description: Specifically searches for directories with titles indicating they are indexes of parent directories.
+
+    site:example.com filetype:pdf
+        Description: Searches for files of a specific filetype (PDF) on a specific website (replace "example.com" with the desired domain).
+
+    intitle:"index of" "filetype:doc"
+        Description: Looks for directories or web pages with titles indicating they are indexes of DOC files.
+
+    intitle:"index of" "parent directory" ext:zip
+        Description: Searches for directories with titles indicating they are indexes of parent directories and filters results to ZIP files.
